@@ -10,6 +10,13 @@
     "type": "git",
     "url": "https://github.com/leahciMic/cli-command-parser"
   },
+  "keywords": [
+    "cli",
+    "command",
+    "arguments",
+    "parser",
+    "flags"
+  ],
   "author": "Michael Leaney <leahcimic@gmail.com>",
   "license": "ISC",
   "devDependencies": {
