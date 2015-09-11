@@ -1,4 +1,4 @@
-# cli-command-parser
+# cli-command-parser [![Build Status](https://travis-ci.org/leahciMic/cli-command-parser.svg?branch=master)](https://travis-ci.org/leahciMic/cli-command-parser)
 
 ## Install
 
