@@ -1,6 +1,6 @@
 {
   "name": "cli-command-parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Parse cli commands in a string intended for child_process#spawn",
   "main": "index.js",
   "scripts": {
