@@ -11,7 +11,7 @@ module.exports = function(str) {
 
     if (token === '"') {
       inQuote = !inQuote;
-      if (!inQuote) {
+      if (!inQuote && currentWord.length) {
         result.push(currentWord);
         currentWord = '';
       }
@@ -19,8 +19,10 @@ module.exports = function(str) {
     }
 
     if (token === ' ' && !inQuote) {
-      result.push(currentWord);
-      currentWord = '';
+      if (currentWord.length) {
+        result.push(currentWord);
+        currentWord = '';
+      }
       return;
     }
 
